@@ -98,12 +98,12 @@
                                     </tr>
                                 </table>
                             </form>
-                            <div class="upload">
+                            <!-- <div class="upload">
                             <span>
                                 <img id="uploaded_image" src="<?=$location?>" alt="">
                                     <input type="file" name="file" id="file">
                                 </span>
-                                </div>
+                                </div> -->
                             </div>          
                         </div>
                     </div>
