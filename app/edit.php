@@ -91,7 +91,7 @@
                                         <td>
                                         <button type="submit" class="ubah">
                                         <span class="las la-pen-square"></span>Ubah</button>
-                                        <button type="submit" class="simpantambah">
+                                        <button type="submit" class="simpantambah" id="simpanpegawai">
                                         <span class="las la-save"></span>Simpan</button>
                                         <button type="button" class="keluartambah">
                                         <span class="las la-times-circle"></span>keluar</button></td>

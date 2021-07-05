@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ID">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
@@ -77,21 +77,17 @@
 		</h2>
           <img src="img/unindra.png" />
           <div>
-			  
             <span>
               <h2>Sistem Informasi Kepegawaian</h2>
             </span>
             <small> Falkultas Teknik Dan Ilmu Komputer </small>
           </div>
         </div>
-			
-			
-			<div class="user-wrapper">
+			<div id="acc" class="user-wrapper">
 				<img src="img/arfan.png"/>
 				<div>
 					<h4>Arif Arfan</h4>
 					<small>201843501017</small>
-
 				</div>
 			</div>
 	</header>

@@ -5,6 +5,11 @@ $sql="SELECT COUNT(*) FROM datapegawai";
 $rs =$con->prepare($sql);
 $rs->execute();
 $jmlh= $rs->fetchColumn();
+
+$absen="SELECT COUNT(*) FROM dataabsen";
+$rs =$con->prepare($absen);
+$rs->execute();
+$abs= $rs->fetchColumn();
 ?>
 <div class="cards">
 	<a href="javascript:;" onclick="pegawai()">
@@ -18,10 +23,10 @@ $jmlh= $rs->fetchColumn();
 			</div>
 		</div>
 		</a>
-		<a href="">
+		<a href="javascript:;" onclick="tableabsen()">
 		<div class="card-single">
 			<div>
-				<h1>90</h1>
+				<h1><?= "$abs"; ?></h1>
 				<span>Jumlah Abesin</span>
 			</div>
 			<div>
